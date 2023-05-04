@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "simulacro-peliculas": {
+      "hosting": {
+        "app_peliculas": [
+          "simulacro-peliculas"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "simulacro-peliculas"
+  }
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActorServiceService } from 'src/app/services/actor-service.service';
 
 @Component({
   selector: 'app-actor-alta',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class ActorAltaComponent {
 
+  constructor(private actorService:ActorServiceService) { }
+
+  guardar() {
+    this.actorService.guardar();
+  }
 }
