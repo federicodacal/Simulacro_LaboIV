@@ -16,6 +16,7 @@ import { environment } from '../environments/environment';
 import { provideAuth,getAuth } from '@angular/fire/auth';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { FIREBASE_OPTIONS } from '@angular/fire/compat';
+import { TablaPaisesComponent } from './components/tabla-paises/tabla-paises.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FIREBASE_OPTIONS } from '@angular/fire/compat';
     ActorAltaComponent,
     ActorListadoComponent,
     TablaPeliculaComponent,
-    PeliculaDetalleComponent
+    PeliculaDetalleComponent,
+    TablaPaisesComponent
   ],
   imports: [
     BrowserModule,
